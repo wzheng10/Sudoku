@@ -169,11 +169,6 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
     }
 
     @Override
-    public void handle(KeyEvent keyEvent) {
-
-    }
-
-    @Override
     public void setListener(IUserInterfaceContract.EventListener listener) {
         this.listener = listener;
     }
@@ -258,5 +253,4 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View,
                 value
         );
     }
-
 }
