@@ -1,6 +1,6 @@
 package sudoku.constants;
 
-public class Rows {
+public enum Rows {
     TOP,
     MIDDLE,
     BOTTOM

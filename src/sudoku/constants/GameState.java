@@ -2,7 +2,7 @@ package sudoku.constants;
 
 import java.rmi.activation.ActivationException;
 
-public class GameState {
+public enum GameState {
     COMPLETE,
     ACTIVE,
     NEW
